@@ -2,6 +2,8 @@
 
 A scalable authentication service built with NestJS
 
+![Sign In](public/images/screenshots/desktop-signin.png)
+
 ## Description
 
 Hello Identity is a comprehensive authentication service designed to provide secure user authentication and identity management features. It's built on NestJS and offers a robust set of authentication capabilities including local authentication, social logins, email verification, and token management.
@@ -55,7 +57,7 @@ Hello Identity is a comprehensive authentication service designed to provide sec
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/JospenWolongwo/hello-identity.git
 cd hello-identity
 ```
 
@@ -145,7 +147,7 @@ npm run start:debug
 
 Once the application is running, you can access the Swagger API documentation at:
 
-```
+```text
 http://localhost:3000/api
 ```
 
@@ -191,6 +193,7 @@ The application supports a flexible permission system loaded from a JSON configu
 4. Each category contains an array of specific permission values
 
 Example permissions.json:
+
 ```json
 {
   "helloHardware": {
@@ -200,6 +203,33 @@ Example permissions.json:
   "hermes": {}
 }
 ```
+
+## Screenshots
+
+### Desktop Views
+
+#### Sign Up
+
+![Sign Up](public/images/screenshots/desktop-signup.png)
+
+#### Sign In
+
+![Sign In](public/images/screenshots/desktop-signin.png)
+
+#### Forgot Password
+
+![Forgot Password](public/images/screenshots/desktop-forgot-password.png)
+
+### Mobile View
+
+![Mobile View](public/images/screenshots/mobile-view.png)
+
+## Contact
+
+- **Developer**: Jospen Wolongwo
+- **Email**: [jospenwolongwo@gmail.com](mailto:jospenwolongwo@gmail.com)
+- **Website**: [jospenwolongwo.com](https://jospenwolongwo.com)
+- **GitHub**: [JospenWolongwo](https://github.com/JospenWolongwo)
 
 ## User Interface
 
